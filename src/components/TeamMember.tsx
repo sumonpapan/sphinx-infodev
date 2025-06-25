@@ -12,11 +12,16 @@ interface TeamMemberProps {
 }
 
 const TeamMember = ({ name, role, image, bio, linkedin, twitter, github }: TeamMemberProps) => {
+  // Check if it's an Unsplash image ID or a direct URL
+  const imageUrl = image.startsWith('/') || image.startsWith('http') 
+    ? image 
+    : `https://images.unsplash.com/${image}?w=400&h=400&fit=crop&crop=face`;
+
   return (
     <div className="bg-white rounded-xl shadow-sm hover:shadow-lg transition-all duration-300 overflow-hidden group">
       <div className="aspect-square overflow-hidden">
         <img
-          src={`https://images.unsplash.com/${image}?w=400&h=400&fit=crop&crop=face`}
+          src={imageUrl}
           alt={name}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />

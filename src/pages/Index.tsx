@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TeamMember from "@/components/TeamMember";
@@ -11,7 +10,7 @@ const Index = () => {
     {
       name: "Sumon Mondal",
       role: "Sr. Associate Video Producer",
-      image: "photo-1649972904349-6e44c42644a7",
+      image: "/lovable-uploads/54f2a1c9-850f-49b8-9f93-bffa246eac42.png",
       bio: "The creative person of Zeta World",
       linkedin: "https://www.linkedin.com/in/31-sumon/",
       twitter: "#",
