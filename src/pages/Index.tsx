@@ -9,11 +9,11 @@ import Contact from "@/components/Contact";
 const Index = () => {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
-      role: "Creative Director",
+      name: "Sumon Mondal",
+      role: "Sr. Associate Video Producer",
       image: "photo-1649972904349-6e44c42644a7",
-      bio: "Leading creative vision with 8+ years in digital design and brand strategy.",
-      linkedin: "#",
+      bio: "The creative person of Zeta World",
+      linkedin: "https://www.linkedin.com/in/31-sumon/",
       twitter: "#",
       github: "#"
     },
