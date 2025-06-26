@@ -12,68 +12,58 @@ const Index = () => {
     {
       name: "Benila",
       role: "Information Developer I",
-      image: "/lovable-uploads/06410970-649e-4421-a2b3-908cc71b9d13.png",
+      image: "/lovable-uploads/Benila.jpeg",
       bio: "Passionate about creating clear and accessible documentation",
-      linkedin: "#",
-      twitter: "#",
-      github: "#"
+      linkedin: "#"
     },
     {
       name: "Maheswari",
       role: "Principal Information Developer",
-      image: "/lovable-uploads/27c34834-494e-44ee-9e99-64a5af3d09cc.png",
+      image: "/lovable-uploads/maheswari.jpg",
       bio: "Leading information architecture and content strategy",
-      linkedin: "#",
-      github: "#"
+      linkedin: "#"
     },
     {
       name: "Mercy",
       role: "Lead Information Developer",
-      image: "/lovable-uploads/e07f9a27-28e6-4b74-8b63-c42edda99360.png",
+      image: "/lovable-uploads/Mercy.png",
       bio: "Expert in technical writing and content design",
-      linkedin: "#",
-      twitter: "#"
+      linkedin: "#"
     },
     {
       name: "Monami",
       role: "Sr. Manager - Information Developer",
-      image: "/lovable-uploads/ff86f160-e61a-4dd2-b033-0e16d5832621.png",
+      image: "/lovable-uploads/Monami.png",
       bio: "Strategic leader in information development initiatives",
-      linkedin: "#",
-      twitter: "#"
+      linkedin: "#"
     },
     {
       name: "Narendra",
       role: "Staff Information Developer",
-      image: "/lovable-uploads/87b08303-945c-4466-b95e-b73274f2e2e2.png",
+      image: "/lovable-uploads/narendra.jpeg",
       bio: "Technical communication specialist with deep domain expertise",
-      linkedin: "#",
-      twitter: "#"
+      linkedin: "#"
     },
     {
-      name: "Sumon Mondal",
+      name: "Sumon",
       role: "Sr. Associate Video Producer",
-      image: "/lovable-uploads/54f2a1c9-850f-49b8-9f93-bffa246eac42.png",
+      image: "/lovable-uploads/Sumon.png",
       bio: "The creative person of Zeta World",
-      linkedin: "https://www.linkedin.com/in/31-sumon/",
-      twitter: "#",
-      github: "#"
+      linkedin: "https://www.linkedin.com/in/31-sumon/"
     },
     {
       name: "Tanmayi",
       role: "Sr. Information Developer",
-      image: "/lovable-uploads/42ea09d2-b75c-4d36-8e04-578cac5784c9.png",
+      image: "/lovable-uploads/Tanmayi.png",
       bio: "Specialist in multi-format content creation and user experience",
-      linkedin: "#",
-      github: "#"
+      linkedin: "#"
     },
     {
       name: "Vidya",
       role: "Principal Information Developer",
-      image: "/lovable-uploads/4f52a973-dcf8-47a6-b66c-f41869fe55be.png",
+      image: "/lovable-uploads/Vidya.jpg",
       bio: "Principal architect of information systems and documentation",
-      linkedin: "#",
-      twitter: "#"
+      linkedin: "#"
     }
   ];
 
