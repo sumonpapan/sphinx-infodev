@@ -11,9 +11,13 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">T</span>
+              <img
+                src="/lovable-uploads/43d785ce-cb11-4312-a047-ff2baa5c9bfe.png"
+                alt="Sphinx"
+                className="w-6 h-6 filter invert"
+              />
             </div>
-            <span className="ml-2 text-xl font-bold text-gray-900">TeamFlow</span>
+            <span className="ml-2 text-xl font-bold text-gray-900">Zeta</span>
           </div>
           
           {/* Desktop Navigation */}

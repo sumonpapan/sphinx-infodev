@@ -1,12 +1,55 @@
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TeamMember from "@/components/TeamMember";
+import TeamGallery from "@/components/TeamGallery";
 import Services from "@/components/Services";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 
 const Index = () => {
   const teamMembers = [
+    {
+      name: "Benila",
+      role: "Information Developer I",
+      image: "/lovable-uploads/06410970-649e-4421-a2b3-908cc71b9d13.png",
+      bio: "Passionate about creating clear and accessible documentation",
+      linkedin: "#",
+      twitter: "#",
+      github: "#"
+    },
+    {
+      name: "Maheswari",
+      role: "Principal Information Developer",
+      image: "/lovable-uploads/27c34834-494e-44ee-9e99-64a5af3d09cc.png",
+      bio: "Leading information architecture and content strategy",
+      linkedin: "#",
+      github: "#"
+    },
+    {
+      name: "Mercy",
+      role: "Lead Information Developer",
+      image: "/lovable-uploads/e07f9a27-28e6-4b74-8b63-c42edda99360.png",
+      bio: "Expert in technical writing and content design",
+      linkedin: "#",
+      twitter: "#"
+    },
+    {
+      name: "Monami",
+      role: "Sr. Manager - Information Developer",
+      image: "/lovable-uploads/ff86f160-e61a-4dd2-b033-0e16d5832621.png",
+      bio: "Strategic leader in information development initiatives",
+      linkedin: "#",
+      twitter: "#"
+    },
+    {
+      name: "Narendra",
+      role: "Staff Information Developer",
+      image: "/lovable-uploads/87b08303-945c-4466-b95e-b73274f2e2e2.png",
+      bio: "Technical communication specialist with deep domain expertise",
+      linkedin: "#",
+      twitter: "#"
+    },
     {
       name: "Sumon Mondal",
       role: "Sr. Associate Video Producer",
@@ -17,26 +60,18 @@ const Index = () => {
       github: "#"
     },
     {
-      name: "Michael Chen",
-      role: "Lead Developer",
-      image: "photo-1488590528505-98d2b5aba04b",
-      bio: "Full-stack developer passionate about clean code and innovative solutions.",
+      name: "Tanmayi",
+      role: "Sr. Information Developer",
+      image: "/lovable-uploads/42ea09d2-b75c-4d36-8e04-578cac5784c9.png",
+      bio: "Specialist in multi-format content creation and user experience",
       linkedin: "#",
       github: "#"
     },
     {
-      name: "Emily Rodriguez",
-      role: "UX Designer",
-      image: "photo-1581091226825-a6a2a5aee158",
-      bio: "User-centered design advocate with expertise in research and prototyping.",
-      linkedin: "#",
-      twitter: "#"
-    },
-    {
-      name: "David Kim",
-      role: "Product Manager",
-      image: "photo-1519389950473-47ba0277781c",
-      bio: "Strategic thinker who bridges the gap between business goals and user needs.",
+      name: "Vidya",
+      role: "Principal Information Developer",
+      image: "/lovable-uploads/4f52a973-dcf8-47a6-b66c-f41869fe55be.png",
+      bio: "Principal architect of information systems and documentation",
       linkedin: "#",
       twitter: "#"
     }
@@ -55,7 +90,7 @@ const Index = () => {
               Meet Our Team
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The talented individuals who make our magic happen every day.
+              Meet the motley crew of thinkers, writers, artists, singers, and communicators at Zeta. We work, learn, experiment, and create fabulous content!
             </p>
           </div>
           
@@ -67,6 +102,7 @@ const Index = () => {
         </div>
       </section>
       
+      <TeamGallery />
       <Services />
       <About />
       <Contact />
@@ -77,12 +113,16 @@ const Index = () => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center mr-3">
-                <span className="text-white font-bold text-lg">T</span>
+                <img
+                  src="/lovable-uploads/43d785ce-cb11-4312-a047-ff2baa5c9bfe.png"
+                  alt="Sphinx"
+                  className="w-6 h-6 filter invert"
+                />
               </div>
-              <span className="text-xl font-bold">TeamFlow</span>
+              <span className="text-xl font-bold">Zeta</span>
             </div>
             <p className="text-gray-400 text-center md:text-right">
-              © 2024 TeamFlow. All rights reserved.
+              © 2024 Zeta. All rights reserved.
             </p>
           </div>
         </div>
