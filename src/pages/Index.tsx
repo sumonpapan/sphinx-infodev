@@ -27,7 +27,7 @@ const Index = () => {
     {
       name: "Benila",
       role: "Information Developer I", 
-      image: "/lovable-uploads/27c34834-494e-44ee-9e99-64a5af3d09cc.png",
+      image: "/lovable-uploads/06410970-649e-4421-a2b3-908cc71b9d13.png",
       tags: ["Content Creation", "API Docs", "User Guides"],
       linkedin: "#"
     },
@@ -41,7 +41,7 @@ const Index = () => {
     {
       name: "Maheswari", 
       role: "Principal Information Developer",
-      image: "/lovable-uploads/ff86f160-e61a-4dd2-b033-0e16d5832621.png",
+      image: "/lovable-uploads/e07f9a27-28e6-4b74-8b63-c42edda99360.png",
       tags: ["Content Strategy", "Information Architecture", "Leadership"],
       linkedin: "#"
     },
@@ -74,7 +74,7 @@ const Index = () => {
       linkedin: "#"
     },
     {
-      name: "Sumon Mondal",
+      name: "Sumon",
       role: "Sr. Associate Video Producer",
       image: "/lovable-uploads/54f2a1c9-850f-49b8-9f93-bffa246eac42.png",
       tags: ["Video Production", "Content Creation", "Storytelling"],
@@ -83,14 +83,14 @@ const Index = () => {
     {
       name: "Tanmayi",
       role: "Sr. Information Developer",
-      image: "/lovable-uploads/27c34834-494e-44ee-9e99-64a5af3d09cc.png",
+      image: "/lovable-uploads/ff86f160-e61a-4dd2-b033-0e16d5832621.png",
       tags: ["Multi-format Content", "User Experience", "Content Strategy"],
       linkedin: "#"
     },
     {
       name: "Vidya",
       role: "Principal Information Developer", 
-      image: "/lovable-uploads/e07f9a27-28e6-4b74-8b63-c42edda99360.png",
+      image: "/lovable-uploads/27c34834-494e-44ee-9e99-64a5af3d09cc.png",
       tags: ["Information Systems", "Documentation Architecture", "Mentorship"],
       linkedin: "#"
     }
