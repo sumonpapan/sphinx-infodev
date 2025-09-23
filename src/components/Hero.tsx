@@ -3,40 +3,45 @@ import { ArrowRight, Users, Target, Zap } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-blue-50 via-white to-purple-50">
+    <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-pastel-lavender via-background to-pastel-mint">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in">
             Information Development,
-            <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-primary to-pastel-purple bg-clip-text text-transparent">
               {" "}aka Sphinx
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             We are technical communication wizards who work overtime to break the curse of knowledge and create impactful, multi-format content.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-            <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition-colors">
-              Learn More
-            </button>
+          
+          {/* Pastel badges/icons section */}
+          <div className="flex flex-wrap justify-center gap-4 mb-16">
+            <div className="px-4 py-2 bg-pastel-pink rounded-full text-sm font-medium text-foreground">Technical Writing</div>
+            <div className="px-4 py-2 bg-pastel-blue rounded-full text-sm font-medium text-foreground">Content Strategy</div>
+            <div className="px-4 py-2 bg-pastel-green rounded-full text-sm font-medium text-foreground">Documentation</div>
+            <div className="px-4 py-2 bg-pastel-yellow rounded-full text-sm font-medium text-foreground">Video Production</div>
+            <div className="px-4 py-2 bg-pastel-orange rounded-full text-sm font-medium text-foreground">UX Writing</div>
+            <div className="px-4 py-2 bg-pastel-mint rounded-full text-sm font-medium text-foreground">Content Design</div>
           </div>
           
           {/* Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <Users className="text-blue-600 mb-3" size={32} />
-              <h3 className="text-2xl font-bold text-gray-900">8</h3>
-              <p className="text-gray-600">Team Members</p>
+            <div className="flex flex-col items-center p-6 bg-card rounded-xl shadow-sm hover:shadow-md transition-shadow border border-pastel-blue/30">
+              <Users className="text-primary mb-3" size={32} />
+              <h3 className="text-2xl font-bold text-foreground">11</h3>
+              <p className="text-muted-foreground">Team Members</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <Target className="text-purple-600 mb-3" size={32} />
-              <h3 className="text-2xl font-bold text-gray-900">200+</h3>
-              <p className="text-gray-600">Projects Completed</p>
+            <div className="flex flex-col items-center p-6 bg-card rounded-xl shadow-sm hover:shadow-md transition-shadow border border-pastel-purple/30">
+              <Target className="text-primary mb-3" size={32} />
+              <h3 className="text-2xl font-bold text-foreground">200+</h3>
+              <p className="text-muted-foreground">Projects Completed</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
-              <Zap className="text-green-600 mb-3" size={32} />
-              <h3 className="text-2xl font-bold text-gray-900">5+</h3>
-              <p className="text-gray-600">Years Experience</p>
+            <div className="flex flex-col items-center p-6 bg-card rounded-xl shadow-sm hover:shadow-md transition-shadow border border-pastel-green/30">
+              <Zap className="text-primary mb-3" size={32} />
+              <h3 className="text-2xl font-bold text-foreground">5+</h3>
+              <p className="text-muted-foreground">Years Experience</p>
             </div>
           </div>
         </div>
