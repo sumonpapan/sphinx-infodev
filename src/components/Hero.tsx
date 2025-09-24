@@ -1,10 +1,22 @@
 
 import { ArrowRight, Users, Target, Zap } from "lucide-react";
+import heroBackground from "@/assets/hero-avengers-sketch.png";
 
 const Hero = () => {
   return (
-    <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-pastel-lavender via-background to-pastel-mint">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section 
+      id="home" 
+      className="pt-32 pb-16 bg-gradient-to-br from-pastel-lavender via-background to-pastel-mint relative overflow-hidden"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundBlendMode: 'multiply'
+      }}
+    >
+      <div className="absolute inset-0 bg-background/60"></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 animate-fade-in">
             Information Development,

@@ -8,7 +8,6 @@ import Blog from "@/components/Blog";
 import Newsletter from "@/components/Newsletter";
 import Gallery from "@/components/Gallery";
 import Testimonials from "@/components/Testimonials";
-import Services from "@/components/Services";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import { useState } from "react";
@@ -18,81 +17,81 @@ const Index = () => {
   const [showExMembers, setShowExMembers] = useState(false);
   const teamMembers = [
     {
-      name: "Ardhi",
-      role: "Information Developer",
-      image: "/lovable-uploads/06410970-649e-4421-a2b3-908cc71b9d13.png",
+      name: "Ardhi Suresh",
+      role: "Information Developer - I",
+      image: "/team/Ardhi.jpeg",
       tags: ["Technical Writing", "Documentation", "UX Writing"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/benila-edwin/"
     },
     {
-      name: "Benila",
-      role: "Information Developer I", 
-      image: "/lovable-uploads/06410970-649e-4421-a2b3-908cc71b9d13.png",
+      name: "Benila Edwin",
+      role: "Information Developer - I", 
+      image: "/team/Benila.jpeg",
       tags: ["Content Creation", "API Docs", "User Guides"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/benila-edwin/"
     },
     {
-      name: "Dinesh",
-      role: "Senior Information Developer",
+      name: "Dinesh Patel",
+      role: "Intern – Video Producer",
       image: "/lovable-uploads/e07f9a27-28e6-4b74-8b63-c42edda99360.png", 
-      tags: ["Technical Communication", "Process Documentation", "Training"],
-      linkedin: "#"
+      tags: ["Video Production", "Multimedia", "Content Creation"],
+      linkedin: "https://www.linkedin.com/in/dinesh-8540-patel/"
     },
     {
-      name: "Maheswari", 
-      role: "Principal Information Developer",
-      image: "/lovable-uploads/e07f9a27-28e6-4b74-8b63-c42edda99360.png",
+      name: "V Maheswari", 
+      role: "Principal Information Developer - I",
+      image: "/team/maheswari.jpg",
       tags: ["Content Strategy", "Information Architecture", "Leadership"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/maheswari-viswanathan-26864643/"
     },
     {
-      name: "Mercy",
-      role: "Lead Information Developer",
-      image: "/lovable-uploads/87b08303-945c-4466-b95e-b73274f2e2e2.png",
+      name: "Mercy Mochary",
+      role: "Lead - Information Development",
+      image: "/team/Mercy.png",
       tags: ["Team Leadership", "Content Design", "Quality Assurance"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/mercymochary/"
     },
     {
-      name: "Monami",
-      role: "Sr. Manager - Information Developer", 
-      image: "/lovable-uploads/42ea09d2-b75c-4d36-8e04-578cac5784c9.png",
+      name: "Monami Bhattacharya",
+      role: "Sr. Manager - Information Development", 
+      image: "/team/Monami.png",
       tags: ["Strategic Planning", "Team Management", "Content Operations"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/monami/"
     },
     {
-      name: "Narendra",
+      name: "Narendra R",
       role: "Staff Information Developer",
-      image: "/lovable-uploads/4f52a973-dcf8-47a6-b66c-f41869fe55be.png", 
+      image: "/team/narendra.jpeg", 
       tags: ["Developer Experience", "API Documentation", "Technical Expertise"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/narendra-ramakrishna-54145533/"
     },
     {
-      name: "Sanjay",
-      role: "Information Developer", 
-      image: "/lovable-uploads/06410970-649e-4421-a2b3-908cc71b9d13.png",
+      name: "Sanjay Nagaraj",
+      role: "Information Developer - I", 
+      image: "/team/Sanjay.jpeg",
       tags: ["Content Writing", "Documentation", "User Experience"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/sanjay-n-552782355"
     },
     {
-      name: "Sumon",
+      name: "Sumon Mondal",
       role: "Sr. Associate Video Producer",
-      image: "/lovable-uploads/54f2a1c9-850f-49b8-9f93-bffa246eac42.png",
+      image: "/team/Sumon.png",
       tags: ["Video Production", "Content Creation", "Storytelling"],
       linkedin: "https://www.linkedin.com/in/31-sumon/"
     },
     {
-      name: "Tanmayi",
-      role: "Sr. Information Developer",
-      image: "/lovable-uploads/ff86f160-e61a-4dd2-b033-0e16d5832621.png",
+      name: "Tanmayi RS",
+      role: "Information Developer - II",
+      image: "/team/Tanmayi.png",
       tags: ["Multi-format Content", "User Experience", "Content Strategy"],
-      linkedin: "#"
+      linkedin: "https://www.linkedin.com/in/tanmayi-shivanand-89a967128/"
     },
     {
-      name: "Vidya",
-      role: "Principal Information Developer", 
-      image: "/lovable-uploads/27c34834-494e-44ee-9e99-64a5af3d09cc.png",
+      name: "Vidya Ramesh",
+      role: "Principal Information Developer - I", 
+      image: "/team/vidya.jpg",
       tags: ["Information Systems", "Documentation Architecture", "Mentorship"],
-      linkedin: "#"
+      linkedin: ""
     }
   ];
 
@@ -161,13 +160,12 @@ const Index = () => {
         </div>
       </section>
       
-      <TeamGallery />
+      
       <Portfolio />
       <Blog />
       <Newsletter />
       <Gallery />
       <Testimonials />
-      <Services />
       <About />
       <Contact />
       
